@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://image.shutterstock.com/image-illustration/3d-rendering-stopwatch-on-red-260nw-1724718685.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+#up {
+  text-align: center;
+  font-family: cursive;
+  font-size: 100px;
+}
+
+input[type=number] {
+  width: 30%;
+  padding: 14px 20px;
+  margin: 80px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#next {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: rgb(75, 148, 148);
+}
+
+#next:hover {
+  color: rgb(7, 7, 7);
+}
+
+#zip{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 300px;
+  color: rgb(68, 163, 201);
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	color:rgb(5, 5, 5);
+	font-size: 30px;
+  font-family: cursive;
+}
